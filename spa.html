@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SPA Example</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch,Array.prototype.includes"></script>
+  <!-- Stylesheets go here. -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
+  <link rel="stylesheet" type="text/css" href="spa.css" />
+</head>
+<body>
+  
+  <nav>
+    <button id="homeBtn">Home</button>
+    <button id="aboutBtn">About</button>
+    <button id="contactBtn">Contact</button>
+  </nav>
+
+  <div id="homeScreen">
+    <h1>Home Page</h1>
+  </div>
+
+  <div id="aboutScreen" class="hidden">
+    <h1>About Page</h1>
+  </div>
+
+  <div id="contactScreen" class="hidden">
+    <h1>Contact Page</h1>
+  </div>
+
+  <!-- Scripts go here. -->
+  <script type="text/javascript" src="spa.js"></script>
+</body>
+</html>
